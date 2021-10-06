@@ -1,0 +1,232 @@
+In file included from src/Declarations/StructDeclarations.h:34:0,
+                 from src/Declarations/Declarations.h:1,
+                 from src/Compiler.c:1:
+src/Declarations/Generated/Automata.h:587:1: warning: braces around scalar initializer
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+ ^~~~~
+src/Declarations/Generated/Automata.h:587:1: note: (near initialization for ‘all_DFAs[0].rules’)
+src/Declarations/Generated/Automata.h:587:1: warning: braces around scalar initializer
+src/Declarations/Generated/Automata.h:587:1: note: (near initialization for ‘all_DFAs[0].rules’)
+In file included from src/Declarations/StructDeclarations.h:34:0,
+                 from src/Declarations/Declarations.h:1,
+                 from src/Compiler.c:1:
+src/Declarations/Generated/Automata.h:54:25: error: field name not in record or union initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                         ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:25: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                         ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:40: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                        ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:40: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                        ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:45: error: field name not in record or union initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                             ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:45: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                             ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:58: warning: excess elements in scalar initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                          ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:58: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                          ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:63: error: field name not in record or union initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                               ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:63: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                               ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:78: warning: excess elements in scalar initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                              ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:78: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                              ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:81: error: field name not in record or union initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                                 ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:81: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                                 ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:94: warning: excess elements in scalar initializer
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                                              ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:94: note: (near initialization for ‘all_DFAs[0].rules’)
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                                              ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:54:97: error: expected ‘}’ before ‘;’ token
+ #define NATIVE_rule_1 { .start_range = 'n', .end_range = 'n', .start_state = 1, .end_state = 2 };
+                                                                                                 ^
+src/Declarations/Generated/Automata.h:60:24: note: in expansion of macro ‘NATIVE_rule_1’
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                        ^~~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:60:114: error: expected ‘}’ before ‘;’ token
+ #define NATIVE_rules { NATIVE_rule_1, NATIVE_rule_2, NATIVE_rule_3, NATIVE_rule_4, NATIVE_rule_5, NATIVE_rule_6 };
+                                                                                                                  ^
+src/Declarations/Generated/Automata.h:61:31: note: in expansion of macro ‘NATIVE_rules’
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                               ^~~~~~~~~~~~
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+src/Declarations/Generated/Automata.h:61:104: error: expected ‘}’ before ‘;’ token
+ #define NATIVE_DFA { .rules = NATIVE_rules, .num_rules = ARR_SIZE(NATIVE_rules), .accepting_state = 7 };
+                                                                                                        ^
+src/Declarations/Generated/Automata.h:587:26: note: in expansion of macro ‘NATIVE_DFA’
+ const DFA all_DFAs[] = { NATIVE_DFA, CTYPE_DFA, BOOL_DFA, CHAR_DFA, UCHAR_DFA, SHORT_DFA, USHORT_DFA, INT_DFA, UINT_DFA, LONG_DFA, FLOAT_DFA, DOUBLE_DFA, VOID_DFA, IF_DFA, ELSE_DFA, FOR_DFA, WHILE_DFA, CONTINUE_DFA, BREAK_DFA, IN_DFA, CLASS_DFA, THIS_DFA, OPERATOR_DFA, TRAIT_DFA, IMPL_DFA, ENUM_DFA, PRIVATE_DFA, PROTECTED_DFA, PUBLIC_DFA, INSTANCEOF_DFA, SIZEOF_DFA, ASSERT_DFA, TRUE_DFA, FALSE_DFA, LPAREN_DFA, RPAREN_DFA, LBRACE_DFA, RBRACE_DFA, LBRACK_DFA, RBRACK_DFA, LARROW_DFA, RARROW_DFA, SEMI_DFA, COMMA_DFA, DOT_DFA, STAR_DFA, EQUALS_DFA, LAMBDA_ARROW_DFA, BANG_DFA, TILDE_DFA, QUESTION_DFA, COLON_DFA, EQUAL_DFA, LE_DFA, GE_DFA, NOTEQUAL_DFA, AND_DFA, OR_DFA, INC_DFA, DEC_DFA, ADD_DFA, SUB_DFA, DIV_DFA, AMP_DFA, BITOR_DFA, CARET_DFA, MOD_DFA, DEREF_ARROW_DFA, ADD_ASSIGN_DFA, SUB_ASSIGN_DFA, MUL_ASSIGN_DFA, DIV_ASSIGN_DFA, AND_ASSIGN_DFA, OR_ASSIGN_DFA, XOR_ASSIGN_DFA, MOD_ASSIGN_DFA, WS_DFA, IMPORT_DFA, SL_COMMENT_DFA, ML_COMMENT_DFA, IDENT_DFA };
+                          ^~~~~~~~~~
+mv: cannot stat 'a.out': No such file or directory
